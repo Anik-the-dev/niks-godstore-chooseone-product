@@ -1,0 +1,11 @@
+.singleProduct{
+    width: 300px;
+    height: 400px;
+    border: 1px solid aliceblue;
+    padding: 10px;
+    background-color: aliceblue;
+}
+.singleProduct img{
+    width: 286px;
+    height: 286px;
+}
