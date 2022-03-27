@@ -8,7 +8,6 @@ const Shop = () => {
     const handleCartBtnClick = (clickedItem) =>{
         const addCart = [...cart,clickedItem]
         setCart(addCart)
-        console.log(addCart)
     }
     useEffect(()=>{
         fetch('dogdata.json')
@@ -16,10 +15,11 @@ const Shop = () => {
         .then(data=>setProducts(data))
     },[])
 
-    let itemItem =''
-    for(let cartItem of cart){
-        itemItem+=' '+cartItem.name 
-    }
+    // let itemName =''
+    // for(let cartItem of cart){
+    //     itemName+=' '+cartItem.name ;
+        
+    // }
 
     
     
@@ -41,7 +41,11 @@ const Shop = () => {
             <div className='cart-container'>
                 <h4>Selected Item:</h4>
                 <p>Selected: {cart.length} items</p>
-                <p>Name: {itemItem}</p>
+                <ul  className='cartList'>
+                    {
+                        cart.map(c=><li><img src={c.image} alt="a"/>{c.name}</li>)
+                    }
+                </ul>
 
             </div>
             

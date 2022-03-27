@@ -25,3 +25,22 @@
     background-color: rgb(252, 161, 58);;
     padding: 10px;
 }
+
+.cartList{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+    
+    
+    
+    
+}
+
+.cartList img{
+    width:20px;
+    height: 20px;
+    margin-right: 10px;
+}
+
+
