@@ -21,6 +21,14 @@ const Shop = () => {
         
     // }
 
+    // choose on for me btn click in cart Container.
+    const [chooseItem, setChooseItem] = useState([])
+    const chooseBtnClick = () =>{
+        const choose = cart[Math.floor(Math.random() * cart.length)];
+        setChooseItem(choose)
+        console.log(chooseItem)
+    }
+
     
     
     return (
@@ -47,7 +55,8 @@ const Shop = () => {
                     }
                 </ul>
                 <div className='cartContainerBtn'>
-                <button className='cartContainerBtn1'>Choose One for me</button>
+                <button onClick={chooseBtnClick} className='cartContainerBtn1'>Choose One for me</button>
+                <p>{chooseItem.name}</p>
                 <button className='cartContainerBtn2'>Choose Again</button>
                 </div>
 
