@@ -1,11 +1,26 @@
 .singleProduct{
-    width: 300px;
+    width: 270px;
     height: 400px;
     border: 1px solid aliceblue;
     padding: 10px;
     background-color: aliceblue;
+    position: relative;
+    border-radius: 8px;
 }
 .singleProduct img{
-    width: 286px;
-    height: 286px;
+    width: 250px;
+    height: 250px;
+    border-radius: 8px;
+}
+.btn-cart{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    border: none;
+    background-color: rgb(252, 161, 58);
+}
+.btn-cart:hover{
+    background-color: rgb(251, 229, 207);
+ 
 }
