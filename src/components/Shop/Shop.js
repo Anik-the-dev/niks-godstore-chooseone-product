@@ -4,6 +4,10 @@ import './Shop.css'
 
 const Shop = () => {
     const [products, setProducts] = useState([])
+    const [cart, setCart] = useState([])
+    const handleCartBtnClick = (clickedItem) =>{
+        setCart(clickedItem)
+    }
     useEffect(()=>{
         fetch('dogdata.json')
         .then(res=>res.json())
@@ -19,6 +23,7 @@ const Shop = () => {
                     products.map(p=><Product
                     key = {p.id}
                     product = {p}
+                    handleClick = {handleCartBtnClick}
                     ></Product> )
 
                 }
