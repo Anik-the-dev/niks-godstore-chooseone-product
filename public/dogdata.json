@@ -1,75 +1,75 @@
 [
     {
       "id": "d1",
-      "image": "../images/Nail Clipper.jpg",
+      "image": "images/Nail Clipper.jpg",
       "price": 357,
       "name": "Nail Clipper"
     },
     {
       "id": "d2",
-      "image": "../images/Flea and Tick Collar.jpg",
+      "image": "images/Flea and Tick Collar.jpg",
       "price": 224,
       "name": "Flea and Tick Collar"
     },
     {
       "id": "d3",
-      "image": "../images/pads.jpg",
+      "image": "images/pads.jpg",
       "price": 192,
       "name": "Puppy Pads"
     },
     {
       "id": "d4",
-      "image": "../images/Dog Supplement.jpg",
+      "image": "images/Dog Supplement.jpg",
       "price": 80,
       "name": "Dog Supplement"
     },
     {
       "id": "d5",
-      "image": "../images/Dog toys.jpg",
+      "image": "images/Dog toys.jpg",
       "price": 289,
       "name": "Dog toys"
     },
 
     {
       "id": "d6",
-      "image": "../images/Male Dog Wrap.jpg",
+      "image": "images/Male Dog Wrap.jpg",
       "price": 296,
       "name": "Male Dog Wrap"
     },
 
     {
         "id": "d7",
-        "image": "../images/Pappy Pads Special.jpg",
+        "image": "images/Pappy Pads Special.jpg",
         "price": 357,
         "name": "Pappy Pads Special"
       },
       {
         "id": "d8",
-        "image": "../images/Sofa for Dog.jpg",
+        "image": "images/Sofa for Dog.jpg",
         "price": 224,
         "name": "Sofa for Dog"
       },
       {
         "id": "d9",
-        "image": "../images/special collar for cat.jpg",
+        "image": "images/special collar for cat.jpg",
         "price": 192,
         "name": "Collar for cat"
       },
       {
         "id": "d10",
-        "image": "../images/Tick Collar.jpg",
+        "image": "images/Tick Collar.jpg",
         "price": 80,
         "name": "Tick Collar"
       },
       {
         "id": "d11",
-        "image": "../images/Training Pads.jpg",
+        "image": "images/Training Pads.jpg",
         "price": 289,
         "name": "Training Pads"
       },
       {
         "id": "d12",
-        "image": "../images/Dog bones.jpg",
+        "image": "images/Dog bones.jpg",
         "price": 123,
         "name": "Dog bones"
       }
