@@ -44,3 +44,29 @@
 }
 
 
+
+.cartContainerBtn{
+    margin-top: 15px;
+
+}
+.cartContainerBtn1 , .cartContainerBtn2{
+    padding: 5px 10px;
+    margin-bottom: 10px;
+    
+}
+
+.cartContainerBtn1{
+    background-color: rgb(255, 255, 255);
+    color: rgb(33, 35, 36);
+    font-weight: 500;
+    border: none;
+    border-radius: 3px;
+}
+.cartContainerBtn2{
+    background-color: transparent;
+    color: rgb(33, 35, 36);
+    font-weight: 400;
+    border: 1px solid white;
+    border-radius: 3px;
+    
+}

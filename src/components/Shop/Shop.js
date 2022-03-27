@@ -43,9 +43,13 @@ const Shop = () => {
                 <p>Selected: {cart.length} items</p>
                 <ul  className='cartList'>
                     {
-                        cart.map(c=><li><img src={c.image} alt="a"/>{c.name}</li>)
+                        cart.map(c=><li className='cartListItem'><img src={c.image} alt="dog products"/>{c.name}</li>)
                     }
                 </ul>
+                <div className='cartContainerBtn'>
+                <button className='cartContainerBtn1'>Choose One for me</button>
+                <button className='cartContainerBtn2'>Choose Again</button>
+                </div>
 
             </div>
             
