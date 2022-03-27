@@ -1,15 +1,16 @@
 import React from 'react';
 
-const Dogitem = (props) => {
+const Product = (props) => {
+
     const {id,name,image,price} = props.product
     return (
         <div>
-            <h1>{name}</h1>
-            <h1>{id}</h1>
-            <h1>{price}</h1>
             <img src={image} alt="Anik"/>
+            <p>{name}</p>
+            <p>{id}</p>
+            <p>{price}</p>
         </div>
     );
 };
 
-export default Dogitem;
+export default Product;

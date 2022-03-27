@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import Dogitem from '../DogItem/Dogitem';
 
+
 const DogProducts = () => {
 
     const [product, setProduct] = useState([])
@@ -13,9 +14,11 @@ const DogProducts = () => {
 
     return (
         <div>
-            <h1>Welcome to Aniks Dog Store</h1>
+            <h1>Aniks Dog Store</h1>
             {
-                product.map(p=><Dogitem product={p}></Dogitem>)
+                product.map(p=><Dogitem 
+                    key = {p.id}
+                    product={p}></Dogitem>)
             }
         </div>
     );
