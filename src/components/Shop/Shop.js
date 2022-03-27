@@ -29,6 +29,14 @@ const Shop = () => {
         console.log(chooseItem)
     }
 
+        // choose again btn click in cart Container.
+        const chooseNewBtnClick = () =>{
+            let c = []
+            setCart(c)
+            setChooseItem([])
+
+        }
+
     
     
     return (
@@ -57,7 +65,7 @@ const Shop = () => {
                 <div className='cartContainerBtn'>
                 <button onClick={chooseBtnClick} className='cartContainerBtn1'>Choose One for me</button>
                 <p>{chooseItem.name}</p>
-                <button className='cartContainerBtn2'>Choose Again</button>
+                <button onClick={chooseNewBtnClick} className='cartContainerBtn2'>Choose Again</button>
                 </div>
 
             </div>
